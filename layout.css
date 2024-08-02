@@ -1,0 +1,75 @@
+.container-1 {
+    background-color: bisque;
+
+}
+
+.container-2 {
+    background-color: rgb(249, 143, 13);
+
+}
+
+.container-3 {
+    background-color: rgb(17, 96, 241);
+
+}
+
+.container-4 {
+    background-color: rgb(152, 213, 22);
+
+}
+
+.container-5 {
+    background-color: rgb(21, 230, 136);
+
+}
+
+.container-6 {
+    background-color: rgb(216, 13, 13);
+
+}
+
+.container-7 {
+    background-color: rgb(236, 128, 106);
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.container div {
+    height: 100%;
+    width: 100%;
+}
+
+.container-1 {
+    grid-column: 1/span 3;
+    grid-row: 1/span 4;
+}
+.container-2{
+    grid-column: 4/span 12;
+    grid-row: 1/span 1;
+}
+.container-3{
+    grid-column: 4/span 3;
+    grid-row: 2/span 2;
+}
+.container-4{
+    grid-column: 7/span 3;
+    grid-row: 2/span 2;
+}
+.container-5{
+    grid-column:10/span 3 ;
+    grid-row: 2/span 1;
+}
+.container-6{
+    grid-column:10/span 3 ;
+    grid-row: 3/span 1;
+}
+.container-7{
+    grid-column:4/span 9 ;
+    grid-row:4/span 1 ;
+}
